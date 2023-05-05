@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Online</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="mobile.css">
+
+</head>
+
+<body>
+
+    <menu id="menumobile">
+        <img class="imgbtn btnfecha" src="assets/img/close.svg" alt="">
+        <ul>
+            <li>
+                <a href="#1">Início</a>
+            </li>
+            <li>
+                <a href="#2" class="margin">Conteúdo</a>
+            </li>
+            <li>
+                <a href="#3" class="margin">Preços</a>
+            </li>
+            <li>
+                <a href="#4" class="margin">Inscreva-se</a>
+            </li>
+        </ul>
+    </menu>
+
+    <header id="cabecalho">
+
+        <div>
+            <h2>Curso Online</h2>        
+        </div>
+
+        <div class="texto">
+            <nav id="menu">
+                <a href="#1">Início</a>
+                <a href="#2" class="margin">Conteúdo</a>
+                <a href="#3" class="margin">Preços</a>
+                <a href="#4" class="margin">Inscreva-se</a>
+            </nav>
+        </div>
+
+        <div class="btnmenu">
+            <img class="imgbtn" src="img/menu.svg" alt="">
+        </div>
+
+    </header>
+
+
+    <main>
+
+        <section id="1" class="inicio">
+            <div class="inicio-text">
+                <h1>Aprenda [Tópico do curso] online</h1>
+                <p>Desenvolva suas habilidades com a ajuda de especialistas em [tópico do curso].</p>
+                <a href="#form" class="btn">Inscreva-se agora</a>
+            </div>
+        </section>
+
+        <section id="2" class="sobre">
+            <h2>Sobre o curso</h2>
+            <p>O curso é ministrado por profissionais experientes em [tópico do curso].
+                Nós fornecemos a você todo o conhecimento e as habilidades necessárias para ter sucesso em sua carreira.
+            </p>
+            <p><strong>Nosso programa inclui:</strong></p>
+            <ul>
+                <li> - [Tópico 1]</li>
+                <li> - [Tópico 2]</li>
+                <li> - [Tópico 3]</li>
+                <li> - [Tópico 4]</li>
+            </ul>
+        </section>
+
+        <section id="3" class="preco">
+            <h2>Preços</h2>
+            <ul id="valor">
+                <li><img src="img/seta.png" alt="">Curso básico: R$200,00</li>
+                <li><img src="img/seta.png" alt="">Curso avançado: R$450,00</li>
+                <li><img src="img/seta.png" alt="">Curso completo: R$700,00</li>
+            </ul>
+            <p><strong>Inscreva-se agora e obtenha [Desconto]% de desconto!</strong></p>
+            <a href="#form" class="btn">Inscreva-se agora</a>
+        </section>
+
+        <section id="form">
+
+            <div id="form-info">
+                <h4>Inscreva-se</h4>
+                <p>Consulte nossos profissionais hoje.</p>
+            </div>
+
+            <div>
+                <form action="" id="formulario">
+                    <div>
+                        <label for="Nome:">Seu Nome:</label>
+                        <input type="text" placeholder="Informe seu nome" id="nome" required minlength="6"
+                            maxlength="20">
+                    </div>
+
+                    <div>
+                        <label for="Email:">E-mail:</label>
+                        <input type="email" placeholder="Informe seu E-mail" id="email" required minlength="6"
+                            maxlength="20">
+                    </div>
+
+                    <div>
+                        <label for="Telefone:">Telefone:</label>
+                        <input type="phone" placeholder="Informe seu telefone" id="phone" required minlength="6"
+                            maxlength="20">
+                    </div>
+
+                    <div>
+                        <label for="Senha:">Senha:</label>
+                        <input type="password" placeholder="Informe sua Senha" id="senha" required minlength="6"
+                            maxlength="20">
+                    </div>
+
+                    <div>
+                        <button type="submit" id="botao">Concluir</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+
+
+    </main>
+
+
+    <footer>
+        <p>Copyright © 2023</p>
+    </footer>
+
+</body>
+
+</html>
